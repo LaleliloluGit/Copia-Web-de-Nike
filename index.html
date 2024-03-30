@@ -13,12 +13,13 @@
       referrerpolicy="no-referrer"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/index_style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="prewrapper">
-        <div class="prewrapper-content">
+        <div class="prewrapper__content">
           <div class="brandicons">
             <a href="https://www.nike.com/es/jordan"><img src="./assets/images/Index/Jumpman_logo.svg.png" alt="Air Jordan Logo" /></a>
             <a href="https://www.converse.com/es/go?lang=es_ES"><img src="./assets/images/Index/Converse-logo.png" alt="Converse Logo" /></a>
@@ -31,8 +32,8 @@
         </div>
       </nav>
       <nav class="nav">
-        <div class="nav-logo">
-          <a href="./index.html" class="logo-link"><img src="./assets/images/Index/Logo_NIKE.svg.png" alt="Nike Logo" /></a>
+        <div class="nav__logo">
+          <a href="./index.html" class="nav__logo-link"><img src="./assets/images/Index/Logo_NIKE.svg.png" alt="Nike Logo" /></a>
         </div>
         <ul class="navbar">
           <li><a href="#0">Novedades y destacados</a></li>
@@ -42,25 +43,61 @@
           <li><a href="">Ofertas</a></li>
         </ul>
         <div class="products">
-          <div class="products-search">
+          <div class="products__search">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
             <input type="search" name="product" id="product" placeholder="Buscar" />
           </div>
-          <a href="#0" class="products-icons"><i class="fa-regular fa-heart"></i></a>
-          <a href="#0" class="products-icons"><i class="fa-solid fa-bag-shopping"></i></a>
+          <a href="#0" class="products__icons"><i class="fa-regular fa-heart"></i></a>
+          <a href="#0" class="products__icons"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
       </nav>
       <div class="banner">
         <p>Air Max Dn - Feel the Unreal</p>
-        <a href="https://www.nike.com/es/w/air-max-dn-shoes-5ufejzy7ok" class="banner-link">Comprar</a>
+        <a href="https://www.nike.com/es/w/air-max-dn-shoes-5ufejzy7ok" class="banner__link">Comprar</a>
       </div>
     </header>
     <img src="./assets/images/Index/nikedebutatecnología.jpg" alt="Imagen promocional" class="visor" />
     <div class="postvisor">
-      <p>Feel the Unreal</p>
-      <p>AIR MAX DN</p>
-      <p>Ya está aquí la nueva generación de tecnología Air.</p>
-      <button>Comprar</button>
+      <h3 class="postvisor__pretitle">Feel the Unreal</h3>
+      <h1 class="postvisor__title">AIR MAX DN</h1>
+      <h2 class="postvisor__subtitle">Ya está aquí la nueva generación de tecnología Air.</h2>
+      <a href="https://www.nike.com/es/w/air-max-dn-5ufej" class="postvisor__button">Comprar</a>
     </div>
+    <div class="dynamic-air-section">
+      <h2 class="dynamic-air-section__title">Unidad Dynamic Air</h2>
+    </div>
+    <img src="./assets/images/Index/unidaddynamicair.webp" alt="Cámara de aire dinámica" class="dynamic-air-section__image" />
+    <main class="container">
+      <section class="discover">
+        <header class="discover-header">
+          <h2 class="dynamic-air-section__title">Descubre Dynamic Air</h2>
+          <div class="discover-header__buttons">
+            <a href="https://www.nike.com/es/w/air-max-dn-5ufej" class="discover-header__text">Descubrir</a>
+            <a href="#0"><i class="fa-solid fa-chevron-left discover-header__button"></i></a>
+            <a href="#0"><i class="fa-solid fa-chevron-right discover-header__button"></i></a>
+          </div>
+        </header>
+        <main class="cards">
+          <a href="https://www.nike.com/es/t/air-max-dn-zapatillas-rZwC5C/DV3337-008" class="card">
+            <img src="./assets/images/Index/rZwC5C.png" alt="Nike Air Max Dn" />
+            <h3>Nike Air Max Dn</h3>
+            <h4>Zapatillas - Hombre</h4>
+            <p>169,99 €</p>
+          </a>
+          <a href="https://www.nike.com/es/t/air-max-dn-zapatillas-dCTQrV/FJ3145-100" class="card">
+            <img src="./assets/images/Index/airmaxdn.png" alt="Nike Air Max Dn" />
+            <h3>Nike Air Max Dn</h3>
+            <h4>Zapatillas</h4>
+            <p>169,99 €</p>
+          </a>
+          <a href="https://www.nike.com/es/t/air-max-dn-zapatillas-nino-a-SrldNC/FB8987-004" class="card">
+            <img src="./assets/images/Index/airmax-dn.png" alt="Nike Air Max Dn" />
+            <h3>Nike Air Max Dn</h3>
+            <h4>Zapatillas - Niño/a</h4>
+            <p>134,99 €</p>
+          </a>
+        </main>
+      </section>
+    </main>
   </body>
 </html>
