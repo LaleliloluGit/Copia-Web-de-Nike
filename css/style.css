@@ -1,0 +1,261 @@
+@font-face {
+  font-family: HelveticaNowTextMedium;
+  src: url(./../assets/fonts/HelveticaNowDisplay-Medium.eot);
+}
+
+/* UNIVERSAL SELECTOR */
+* {
+  box-sizing: border-box;
+}
+
+/* SCROLL BEHAVIOUR */
+html {
+  scroll-behavior: smooth;
+}
+
+/* COLOR PALETTE AND VARIABLES */
+:root {
+  --background: #ffffff;
+  --black: #111111;
+  --gray: #f5f5f5;
+  --graysearch: #e5e5e5;
+  --graybutton: #cacacb;
+  --grayhover: #767575;
+  --graylupa: #cccccc;
+  --palette4: #249ea0;
+  --palette5: #008083;
+  --palette6: #005f60;
+}
+
+/* BODY */
+body {
+  background-color: var(--background);
+  color: var(--black);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "HelveticaNowTextMedium", sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.prewrapper {
+  width: 100%;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+}
+
+.prewrapper-content {
+  padding: 5px 38px 5px 36px;
+  max-width: 1903px;
+  max-height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandicons {
+  display: flex;
+  gap: 20px;
+}
+
+.brandicons img {
+  width: 24px;
+  height: 24px;
+}
+
+.brandicons a:hover {
+  filter: invert(48%) sepia(0%) saturate(5%) hue-rotate(251deg) brightness(96%) contrast(90%);
+  transition: 0.2s;
+}
+
+.usermenu {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.usermenu a {
+  color: var(--black);
+  text-decoration: none;
+  padding: 4px 8px;
+  letter-spacing: -0.2px;
+}
+
+.usermenu a:hover {
+  color: var(--grayhover);
+  transition: 0.2s;
+}
+
+.nav {
+  padding: 4px 38px 4px 36px;
+  max-width: 1903px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  width: 62px;
+}
+
+.logo-link img {
+  width: 62px;
+}
+
+.nav-logo {
+  width: 277px;
+}
+
+.logo-link:hover {
+  filter: invert(48%) sepia(0%) saturate(5%) hue-rotate(251deg) brightness(96%) contrast(90%);
+  transition: 0.2s;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  padding: 12px;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid var(--black);
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.products i {
+  font-size: 1.3rem;
+}
+
+.products-search {
+  display: flex;
+  border: 1px solid var(--gray);
+  background-color: var(--gray);
+  border-radius: 50px;
+  padding: 1px;
+}
+
+.products-search:hover {
+  background-color: var(--graysearch);
+  transition: 0.2s;
+}
+
+.products-search input {
+  /* margin-left: 15px; */
+  margin-right: 0px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--gray);
+  width: 130px;
+}
+
+.products-search input::placeholder {
+  font-family: "HelveticaNowTextMedium", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-left: 15px;
+  color: var(--graylupa);
+}
+
+.products-search input:focus {
+  font-family: "HelveticaNowTextMedium", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--black);
+}
+
+.products-search input:hover::placeholder {
+  color: var(--grayhover);
+}
+
+.products-search button {
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--gray);
+  padding: 6px;
+}
+
+.products-search button:hover {
+  background-color: var(--graysearch);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.products-search input:hover {
+  background-color: var(--graysearch);
+  transition: 0.2s;
+}
+
+.products-icons {
+  color: var(--black);
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.products-icons:hover {
+  background-color: var(--graysearch);
+  transition: 0.2s;
+}
+
+.banner {
+  width: 100%;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner p {
+  color: #363636;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.banner-link {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.visor {
+  width: 100%;
+}
+
+.postvisor {
+  max-width: 1903px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
