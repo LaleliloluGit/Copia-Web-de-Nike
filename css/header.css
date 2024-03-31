@@ -3,6 +3,11 @@
   src: url(./../assets/fonts/HelveticaNowDisplay-Medium.eot);
 }
 
+@font-face {
+  font-family: Nike;
+  src: url(./../assets/fonts/futura-nd-for-nike-365-snkrs-cn-xbd.ttf);
+}
+
 /* UNIVERSAL SELECTOR */
 * {
   box-sizing: border-box;
@@ -22,7 +27,7 @@ html {
   --graybutton: #cacacb;
   --grayhover: #767575;
   --graylupa: #cccccc;
-  --graybutton: #707072;
+  --graybutton2: #707072;
   --palette5: #008083;
   --palette6: #005f60;
 }
