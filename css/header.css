@@ -119,7 +119,6 @@ html {
   display: flex;
   list-style-type: none;
   padding: 0;
-  position: sticky;
   top: 0;
 }
 

@@ -1,0 +1,77 @@
+/* COLOR PALETTE AND VARIABLES */
+:root {
+  --background: #ffffff;
+  --black: #111111;
+  --gray: #f5f5f5;
+  --graysearch: #e5e5e5;
+  --graybutton: #cacacb;
+  --grayhover: #767575;
+  --graylupa: #cccccc;
+  --graybutton2: #707072;
+  --palette5: #008083;
+  --palette6: #005f60;
+}
+
+.visor {
+  margin-top: 75px;
+  max-width: 1702px;
+  width: 100%;
+}
+
+.container__header {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background-color: var(--background);
+}
+
+.container__box1 {
+  display: flex;
+  padding: 0;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.container__box1 li {
+  list-style-type: none;
+}
+
+.container__box1 a {
+  color: var(--black);
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.container__box1 a:hover {
+  color: var(--grayhover);
+  transition: 0.3s;
+}
+
+.container__box2 {
+  visibility: hidden;
+}
+
+.cards h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.cards--newest,
+.cards--tendencies {
+  margin-top: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards--newest h3 {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
