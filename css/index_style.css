@@ -139,8 +139,10 @@ body {
   margin-top: 20px;
   padding-left: 45px;
   padding-right: 45px;
+  gap: 15px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -149,6 +151,9 @@ body {
   color: var(--black);
   text-decoration: none;
   font-weight: 600;
+  flex-shrink: 1;
+  flex-grow: 3;
+  flex-basis: 200px;
 }
 
 .card h3 {

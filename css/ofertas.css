@@ -1,0 +1,199 @@
+.container__header {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background-color: var(--background);
+}
+
+.products__filters {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  gap: 25px;
+}
+
+.products__filter {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.sales {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 151;
+}
+
+.sales__aside {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: sticky;
+  top: 37;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-wrap: nowrap;
+}
+
+.sales__link {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.sales__link:hover {
+  color: var(--grayhover);
+}
+
+.sales__links {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.sales__link--arrow {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--graybutton);
+  border-bottom: 1px solid var(--graybutton);
+}
+
+.sales__link--arrow a {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.sales__products {
+  width: 84%;
+  flex-wrap: wrap;
+}
+
+.cards--tendencies {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-left: 20px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.card h5 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: var(--graybutton2);
+}
+
+.card span {
+  text-decoration: line-through;
+  color: var(--graybutton2);
+}
+
+.card h6 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: var(--green);
+}
+
+.card h2 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: var(--brown);
+}
+
+.card h3 {
+  margin-top: 8px;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.extra-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.extra-info__content {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--graybutton);
+}
+
+tr:nth-child(even) {
+  background-color: var(--gray);
+}
+
+th {
+  background-color: var(--black);
+  color: var(--background);
+}
+
+form {
+  width: 40%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--graybutton);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: var(--black);
+  color: var(--background);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--black);
+}

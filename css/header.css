@@ -28,8 +28,8 @@ html {
   --grayhover: #767575;
   --graylupa: #cccccc;
   --graybutton2: #707072;
-  --palette5: #008083;
-  --palette6: #005f60;
+  --green: #007d48;
+  --brown: #9e3500;
 }
 
 .header {
@@ -96,6 +96,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav__logo-link {
